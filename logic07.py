@@ -7,7 +7,10 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return (a>0 and b<0) or (a<0 and b>0)
+    x1 = (a<0 and b<0)
+    x2 = (a>0 and b<0)
+    x3 = (a<0 and b>0)
+    return x1 or x2 or x3
 
-x = main(-8,6)
-print(bool(x))
+answer = main(8,6)
+print(answer)
