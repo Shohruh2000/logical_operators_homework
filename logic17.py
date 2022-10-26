@@ -12,7 +12,7 @@ def main(a):
     x4 = ((a//100)//10)%10
     x5 = a//10000
 
-    return (x5==(x4+1) and x4==(x3+1) and x3== (1+x2)and x2==(x1+1))
+    return (x5==(x4+1) and x4==(x3+1) and x3== (1+x2)and x2==(x1+1)) and (9999<a and a<100000)
 
-answer = main(123)
+answer = main(87654)
 print(answer)
