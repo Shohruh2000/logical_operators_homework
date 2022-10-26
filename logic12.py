@@ -9,4 +9,4 @@ def main(a):
     return a//10 == a%10 and (9 < a and a < 99)
 
 answer  = main(22)
-print(bool(answer))
+print(answer)
