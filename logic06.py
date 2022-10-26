@@ -9,5 +9,5 @@ def main(a,b):
     """
     return (a>0 and b<0) or (a<0 and b>0)
 
-x = main(-8,6)
+x = main(8,9)
 print(bool(x))
