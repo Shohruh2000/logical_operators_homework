@@ -6,8 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a==((a//10)*10 + a%10) and (a//10 < 10)
+    return a==((a//10)*10 + a%10) and (a//10 < 10) and (a>9)
 
-x = main(120)
+x = main(1)
 print(bool(x)) 
 
