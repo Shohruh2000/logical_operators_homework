@@ -5,9 +5,9 @@ def main(a,b):
         a(int): parameter a
         b(int): parameter b
     Returns:
-        bool: answer
+        bool: answer # 3 -5 -9 6
     """
     return (a>0 and b<0) or (a<0 and b>0)
 
-x = main(8,9)
+x = main(8,-1)
 print(bool(x))
