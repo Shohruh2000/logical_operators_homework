@@ -7,7 +7,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return a<0 and b <0
+    return (a<0 and (b) <0 ) and (a % 2 ==0 or a % 2 ==1 ) and (b % 2 ==0 or b % 2 ==1) 
 
-x = main(3,-5)
+x = main(-2 , -7)
 print(bool(x))
