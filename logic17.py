@@ -4,6 +4,15 @@ def main(a):
     Args:
         a(int): parameter a
     Returns:
-        bool: answer
+        bool: answer 54321
     """
-    return
+    x1 = a%10
+    x2 = (a//10)%10
+    x3 = (a//100)%10
+    x4 = ((a//100)//10)%10
+    x5 = a//10000
+
+    return (x5==(x4+1) and x4==(x3+1) and x3== (1+x2)and x2==(x1+1))
+
+answer = main(123)
+print(answer)
