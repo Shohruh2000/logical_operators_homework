@@ -5,4 +5,15 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x1 = a%10
+    x2 = (a//10)%10
+    x3 = (a//100)%10
+    x4 = ((a//100)//10)%10
+    x5 = a//10000
+    
+
+
+    return (x1>x2 and x2>x3 and x3>x4 and x4>x5 and x1>x3 and x2>x4 and  x3>x5 ) and (10000<=a and a<=99999)
+
+answer = main(12345)
+print(answer)
