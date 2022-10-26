@@ -7,4 +7,8 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    return (a%2==0 and b%2==0) and (a>0 and b>0 ) or (a==b)
+
+x = main(18,4)
+print(bool(x))
+
