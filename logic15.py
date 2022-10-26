@@ -6,4 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return (a > 99 and a < 1000) and ((a//100 + (a//10)%10 +a%10)%2==1)
+answer = main(143)
+print(answer)
