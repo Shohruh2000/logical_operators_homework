@@ -17,8 +17,7 @@ def main(a):
     x1=a%10
 
 
-    return (x5==(x4+1) and x4==(x3+1) and x3== (1+x2)and x2==(x1+1)) and (10000<=a and a<=99999)
-    return x1,x2,x3,x4,x5
+    return (x1<x2 and x2<x3 and x3<x4 and x4<x5 and x1<x3 and x2<x4 and  x3<x5 ) and (10000<=a and a<=99999)
 
-answer = main(543219)
+answer = main(97531)
 print(answer)
